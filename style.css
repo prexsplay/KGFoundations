@@ -1,10 +1,23 @@
+.container{
+   
+}
+
+
+
 #header{
     display: flex;
-    border: solid green 10px;
+    
+   
     
 }
 
 #nav-bar{
     display: flex;
-    justify-content: flex-end;
+   padding:0 0 0 10px;
+   
+  
+}
+
+#nav-link{
+    justify-content: space-between;
 }
