@@ -5,21 +5,30 @@
 }
 
 
-
+#header{
+    font-size: 20px;
+    background: #95d3ce;
+}
 
 
 
 #nav-bar{
     display: flex;
-    padding:0 0 0 50px;
-    justify-content: flex-end;  
+    /* padding:0 0 0 50px; */
+    margin: 0 0 0 15rem;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    
  
   
 }
 
-#nav-link{
+.nav-link{
     
-     
+    background: #b5d6a893;
+
+   
+   
 }
 
 a{
