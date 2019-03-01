@@ -2,12 +2,16 @@
 .container{
   
   border: solid green 1px;
+  border-radius: 15px;
 }
 
 
 #header{
-    font-size: 20px;
+    font-size: 1.5em;
     background: #95d3ce;
+    border-radius: 15px;
+    position: fixed;
+    position: 0; left: 0;  width: 100%;
 }
 
 
@@ -35,8 +39,71 @@ a{
     text-decoration:none;
 }
 
+main{
+    text-align: center;
+    height: 100vh;
+    margin: 50px 100px;
+    background: #b5d6a893;
+    border-radius: 20px;
+    padding: 5px;
+    background-image: url('np2.jpg');
+    background-size: contain;
+    
+}
+
+main h1{
+    height: 3em;
+    background: #b5d6a893;
+}
+
+.vidh{
+    height: 100vh;
+    background: #b5d6a893;
+    border-radius: 20px;
+}
+
+.vdg{
+    text-align: center;
+     margin-top: 100px;
+     height: 3em;
+     
+
+    }
+    
+  #Gallery{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; 
+      align-items: center;
+    
+      
+  }
 
 
+  #Contact{
+      margin-top: 50px;
+      text-align: center;
+  }
+
+
+#form{
+    align-content: center;
+}
+
+
+#submit{
+    background: #b3181893;
+}
+
+
+
+
+
+@media(min-width:350px) {
+    #nav-bar{
+        margin: 0 0 0 15rem;
+    }
+}
 
 
 
