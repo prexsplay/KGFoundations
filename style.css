@@ -1,9 +1,18 @@
 
+
+body { 
+    box-sizing: border-box; 
+    } 
+    
+
 .container{
   
   border: solid green 1px;
   border-radius: 15px;
-  position: 0; left: 0;  width: 100%;
+ 
+  left: 0;  
+ 
+  
 }
 
 
@@ -18,20 +27,30 @@
 
 
 #nav-bar{
-    display: flex;
-    /* padding:0 0 0 50px; */
+    border: 1px solid rgb(212, 20, 20); 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+   
+    }
+
+   /*  display: flex;
+    /* padding:0 0 0 50px; 
     margin: 0 0 0 15rem;
     justify-content: space-around; 
     flex-wrap: wrap;
-    
+     */
  
   
-}
+
 
 .nav-link{
     
     background: #b5d6a893;
-
+   
+    
    
    
 }
@@ -99,13 +118,13 @@ main h1{
 
 
 
-
+/* 
 @media(min-width:350px) {
     #nav-bar{
         margin: 0 0 0 15rem;
     }
 }
 
-
+ */
 
 
